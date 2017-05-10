@@ -3,13 +3,7 @@
 #include<time.h>
 #define N 12
 #include"头文件.h"
-int shu,i=0,j;
-	int daan,zhengque;
-	int a,b,c,d,count=0,e,f,g,h,k,l,sum,fenzi,fenmu;
-    double pan,ce; 
-    int zuo=0,gb,gy; 
-    int gongbei(int a,int b,int c,int d);
-	int gongyue(int e,int f);
+
 void randomNumber()
 {
 	         a=rand()%N;
@@ -45,6 +39,13 @@ void calculateResult(){
 }
 int main(int argc,char *argv[])
 { int langu; 
+int shu,i=0,j;
+	int daan,zhengque;
+	int a,b,c,d,count=0,e,f,g,h,k,l,sum,fenzi,fenmu;
+    double pan,ce; 
+    int zuo=0,gb,gy; 
+    int gongbei(int a,int b,int c,int d);
+	int gongyue(int e,int f);
 printf("请选择语言类型：\n1.中文\n2.英语\n3.德语\n4.法语\n5.日语\n");
 scanf("%d",&langu);
  language(langu,0);
