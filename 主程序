@@ -43,7 +43,7 @@ void calculateResult(){
 		 	 ce=(double)sum/(double)gb;
 		 	 zhengque=ce;
 }
-int main()
+int main(int argc,char *argv[])
 { int langu; 
 printf("请选择语言类型：\n1.中文\n2.英语\n3.德语\n4.法语\n5.日语\n");
 scanf("%d",&langu);
